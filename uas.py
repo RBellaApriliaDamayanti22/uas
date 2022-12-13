@@ -31,7 +31,7 @@ with data_set_description:
     st.write("""2.Length (Panjang):Panjang buah mangga dalam centimeter (cm). Sebuah mangga arumanis panjangnya sekitar 15 cm dengan berat per buah 450 gram (rata-rata).  """)
     st.write("""3.Circumference (Lingkar): Lingkar mangga dalam sentimeter (cm)""")
     st.write("###### Aplikasi ini untuk : Pengukuran Fisik Mangga Harumanis")
-    st.write("###### Source Code Aplikasi ada di Github anda bisa acces di link :  https://github.com/RBellaApriliaDamayanti22/UAS-Project")
+    st.write("###### Source Code Aplikasi ada di Github anda bisa acces di link :  https://github.com/RBellaApriliaDamayanti22/uas")
     st.write("###### Untuk Wa saya anda bisa hubungi nomer ini : http://wa.me/6289658567766 ")
 
 with upload_data:
@@ -40,7 +40,7 @@ with upload_data:
     #     df = pd.read_csv(uploaded_file)
     #     st.write("Nama File Anda = ", uploaded_file.name)
     #     st.dataframe(df)
-    df = pd.read_csv('https://raw.githubusercontent.com/RBellaApriliaDamayanti22/UAS-Project/main/Data.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/RBellaApriliaDamayanti22/uas/main/Data.csv')
     st.dataframe(df)
 
 with preprocessing:
